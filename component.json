@@ -1,0 +1,13 @@
+{
+  "name": "watchjs",
+  "repo": "dworthen/watchjs",
+  "description": "Subscribe to object changes.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
