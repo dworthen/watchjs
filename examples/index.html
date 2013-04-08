@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Examples</title>
+</head>
+<body>
+
+<script type="text/javascript" src="../build/build.js"></script>
+<script type="text/javascript">
+    var watch = require('watchjs')
+            , someObj = {
+                a: 'one',
+                b: 'two',
+                nested: {
+                	obj: 'cool'
+                }
+            };
+    watch(someObj);
+    console.log(someObj);
+</script>
+</body>
+</html>

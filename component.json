@@ -4,7 +4,11 @@
   "description": "Subscribe to object changes.",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "component/type": "*",
+    "logicalparadox/goodwin": "*",
+    "dworthen/flatten": "*"
+  },
   "development": {},
   "license": "MIT",
   "scripts": [
